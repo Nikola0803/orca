@@ -55,7 +55,7 @@ export const defaultHomePage = {
     },
   ],
   hero_content: {
-    headline: 'At the top of your food chain',
+    headline: 'testing Testing',
     description: 'From Wild Caught Seafood to Full Blood Wagyu, we deliver restaurant-quality meats, seafood, and gourmet specialties to Singapore\'s finest establishments.',
     badges: [
       { icon: 'ri-shield-check-line', text: 'FSSC Certified' },
