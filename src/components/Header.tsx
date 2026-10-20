@@ -34,7 +34,7 @@ export default function Header({ transparent = false }: HeaderProps) {
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center relative z-10 group">
             <img
-              src='https://orca.com.sg/wp-content/uploads/2026/02/orca-logo-black-3.png'
+              src='/images/orca-logo-black.png'
               alt={`${settings.company_name} Premium Food Distribution Singapore`}
               className={`h-12 transition-all duration-500 group-hover:scale-110 ${
                 isTransparent ? 'brightness-0 invert' : 'brightness-100'

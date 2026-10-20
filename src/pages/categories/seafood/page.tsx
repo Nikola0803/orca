@@ -20,7 +20,7 @@ const SeafoodPage: React.FC = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://orca.com.sg/wp-content/uploads/2026/02/FRESH-SEAFOOD-1-2.png')`,
+            backgroundImage: `url('/images/FRESH-SEAFOOD-1-2.png')`,
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/40" />

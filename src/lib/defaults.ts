@@ -1,9 +1,9 @@
-const IMG = 'https://orca.com.sg/wp-content/uploads/2026/02/';
+const IMG = '/images/';
 
 // ─── Site Settings / Layout ────────────────────────────────────
 export const defaultLayout = {
   settings: {
-    logo_url: 'https://orca.com.sg/wp-content/uploads/2021/08/orca.png',
+    logo_url: '/images/orca-logo-black.png',
     company_name: 'ORCA',
     company_description: "Singapore's premier food distribution partner, delivering excellence in premium seafood, meat, and specialty products since 2009.",
     contact_email: 'sales@orca.com.sg',
@@ -112,7 +112,7 @@ export const defaultHomePage = {
     {
       id: 4, name: 'Frozen & Processed', icon: 'ri-temp-cold-line',
       description: 'High-quality frozen meats, processed foods, and ready-to-cook premium selections',
-      image: `https://orca.com.sg/wp-content/uploads/2026/03/image.png`,
+      image: `/images/frozen-products.png`,
       items: ['Frozen Fish fillets', 'Portion cut Steaks', 'Bulk Packed Burgers', 'Sausages'],
     },
     {
@@ -168,14 +168,14 @@ export const defaultHomePage = {
     ],
   },
   team: [
-    { name: 'John', position: 'Managing Director', image: 'https://static.readdy.ai/image/06a5372e318295d84f92a9010458afb5/06ee589c85db4bfea6ec570731346a94.jpeg' },
-    { name: 'Rafi', position: 'Sales Director', image: 'https://static.readdy.ai/image/06a5372e318295d84f92a9010458afb5/69cd0659118044f52245bfbfbf4cd764.jpeg' },
-    { name: 'Angela', position: 'Sales Director', image: 'https://static.readdy.ai/image/06a5372e318295d84f92a9010458afb5/238d749a4fbf43fb99a3c30573a5a550.jpeg' },
-    { name: 'Deborah', position: 'Wholesale Manager', image: 'https://static.readdy.ai/image/06a5372e318295d84f92a9010458afb5/bc706ed64ba40cfaf0846d4ed89c68ad.jpeg' },
-    { name: 'Walter', position: 'Sales Manager', image: 'https://static.readdy.ai/image/06a5372e318295d84f92a9010458afb5/c399568e8aaaa3cbd189ef200c2e1943.jpeg' },
-    { name: 'Deasy', position: 'Customer Service', image: 'https://static.readdy.ai/image/06a5372e318295d84f92a9010458afb5/a0850985a45477f4ec355cf391567b79.jpeg' },
-    { name: 'Nikki', position: 'Customer Service', image: 'https://static.readdy.ai/image/06a5372e318295d84f92a9010458afb5/17f74fa1d2f982b2af1356fe4d023370.jpeg' },
-    { name: 'Eunice', position: 'Junior Sales', image: 'https://static.readdy.ai/image/06a5372e318295d84f92a9010458afb5/cc4caa70a7fde0ab65858791206ad987.jpeg' },
+    { name: 'John', position: 'Managing Director', image: '/images/team-john.jpeg' },
+    { name: 'Rafi', position: 'Sales Director', image: '/images/team-rafi.jpeg' },
+    { name: 'Angela', position: 'Sales Director', image: '/images/team-angela.jpeg' },
+    { name: 'Deborah', position: 'Wholesale Manager', image: '/images/team-deborah.jpeg' },
+    { name: 'Walter', position: 'Sales Manager', image: '/images/team-walter.jpeg' },
+    { name: 'Deasy', position: 'Customer Service', image: '/images/team-deasy.jpeg' },
+    { name: 'Nikki', position: 'Customer Service', image: '/images/team-nikki.jpeg' },
+    { name: 'Eunice', position: 'Junior Sales', image: '/images/team-eunice.jpeg' },
   ],
 };
 
@@ -714,5 +714,5 @@ export const defaultTestimonials = [
   { id: 3, name: 'David Kennon', position: 'Director', restaurant: 'White Stripe Foods - Australia', image: '#', testimonial: 'Our supply partnership with Orca Marketing Singapore has been exceptionally rewarding for our business in so many ways. The team is extremely professional and their extensive industry knowledge has assisted us to develop and grow our premium meat brands in the market. I have high regard for their integrity and dedication to provide their customers with a level of service that is second to none.', rating: 5, date: '' },
   { id: 4, name: 'Peter Smit', position: 'Head Chef', restaurant: 'No Sleep Club', image: `${IMG}Peter-Smit.jpg`, testimonial: "I've been using orca as my primary meat supplier for the last 2 years. They are by far the easiest and flexible suppliers that I have used in Singapore. They understand people's needs and are always happy to assist in anyway. Their products are faultless and they definitely understand quality.", rating: 5, date: '' },
   { id: 5, name: 'Ciaran Armstrong', position: 'Head Chef', restaurant: 'The Halia', image: `${IMG}8e7a5bc2-1e76-4069-8192-2827419addc1.jpg`, testimonial: 'Orca are our most reliable supplier with best in class products and a willingness to go above and beyond to meet our requirements. I would highly recommend them to anyone looking for quality produce and top tier customer service.', rating: 5, date: '' },
-  { id: 6, name: 'Ben Blackmore', position: 'Director', restaurant: 'Blackmore Wagyu', image: `https://orca.com.sg/wp-content/uploads/2026/03/image-1.png`, testimonial: 'Orca has allowed us to grow significantly over the last 7 or 8 years now. we keep going from strength to strength with them and their willingness to find homes for our product, has been fantastic for us. Singapore has evolved into one of our biggest export markets - I think the Singapore culture shows that they have and love food and really good quality food, and for that we see it as the perfect place for us to be able to sell our product', rating: 5, date: '' },
+  { id: 6, name: 'Ben Blackmore', position: 'Director', restaurant: 'Blackmore Wagyu', image: `/images/ben-blackmore.png`, testimonial: 'Orca has allowed us to grow significantly over the last 7 or 8 years now. we keep going from strength to strength with them and their willingness to find homes for our product, has been fantastic for us. Singapore has evolved into one of our biggest export markets - I think the Singapore culture shows that they have and love food and really good quality food, and for that we see it as the perfect place for us to be able to sell our product', rating: 5, date: '' },
 ];

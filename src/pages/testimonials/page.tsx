@@ -24,7 +24,7 @@ const TestimonialsPage: React.FC = () => {
     <>
       {/* Hero */}
       <section className="relative h-[60vh] flex items-center justify-center">
-        <div className="absolute inset-0 bg-cover bg-top" style={{ backgroundImage: `url(https://orca.com.sg/wp-content/uploads/2026/02/JBS-King-Island_.png)` }}>
+        <div className="absolute inset-0 bg-cover bg-top" style={{ backgroundImage: `url(/images/JBS-King-Island_.png)` }}>
           <div className="absolute inset-0 bg-black/40"></div>
         </div>
         <div className="relative z-10 text-center text-white">

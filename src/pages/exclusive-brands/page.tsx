@@ -29,7 +29,7 @@ const ExclusiveBrandsPage: React.FC = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://orca.com.sg/wp-content/uploads/2026/02/Portoro-Beef-1-1.jpg')`
+            backgroundImage: `url('/images/Portoro-Beef-1-1.jpg')`
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/40"></div>

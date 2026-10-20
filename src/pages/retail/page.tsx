@@ -16,7 +16,7 @@ const RetailPage: React.FC = () => {
     <>
       {/* Hero Section */}
       <section className="relative h-[60vh] flex items-center justify-center">
-        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(https://orca.com.sg/wp-content/uploads/2026/02/Olssons-2.webp)` }}>
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(/images/Olssons-2.webp)` }}>
           <div className="absolute inset-0 bg-black/40"></div>
         </div>
         <div className="relative z-10 text-center text-white px-6">

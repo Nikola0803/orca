@@ -18,7 +18,7 @@ export default function Footer() {
           {/* Company Info */}
           <div className="space-y-6">
             <img
-              src='https://orca.com.sg/wp-content/uploads/2026/02/orca-logo-white-5.png'
+              src='/images/orca-logo-white.png'
               alt={settings.company_name}
               className="h-12 brightness-0 invert hover:scale-110 transition-transform duration-300"
             />
