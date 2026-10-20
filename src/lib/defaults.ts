@@ -1,15 +1,9 @@
-/**
- * Default content for all pages.
- * Used as fallback when WordPress API is unavailable or content hasn't been changed.
- * This is the EXACT content currently hardcoded in the React components.
- */
-
 const IMG = 'https://orca.com.sg/wp-content/uploads/2026/02/';
 
 // ─── Site Settings / Layout ────────────────────────────────────
 export const defaultLayout = {
   settings: {
-    logo_url: 'https://www.orca.com.sg/wp-content/uploads/2021/08/orca.png',
+    logo_url: 'https://orca.com.sg/wp-content/uploads/2021/08/orca.png',
     company_name: 'ORCA',
     company_description: "Singapore's premier food distribution partner, delivering excellence in premium seafood, meat, and specialty products since 2009.",
     contact_email: 'sales@orca.com.sg',
