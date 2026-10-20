@@ -42,18 +42,10 @@ export default function AboutSection({ data }: AboutSectionProps) {
             
             <h2 className="text-5xl font-black text-gray-900 mb-8 leading-tight">
               {about.title_line1}
-              {about.title_line2 && (
-                <>
-                  <br />
-                  <span className="text-black">{about.title_line2}</span>
-                </>
-              )}
-              {about.title_line3 && (
-                <>
-                  <br />
-                  {about.title_line3}
-                </>
-              )}
+              <br />
+              <span className="text-black">{about.title_line2}</span>
+              <br />
+              {about.title_line3}
             </h2>
             
             <div className="space-y-6 text-gray-700 text-lg leading-relaxed">

@@ -78,9 +78,9 @@ export const defaultHomePage = {
   },
   about: {
     badge: 'About Orca Marketing',
-    title_line1: 'testing Claude project',
-    title_line2: '',
-    title_line3: '',
+    title_line1: "Singapore's Most",
+    title_line2: 'Trusted Food',
+    title_line3: 'Distribution Partner',
     paragraphs: [
       'For over <strong class="text-gray-900">15 years</strong>, Orca Marketing has been the cornerstone of Singapore\'s premium food distribution network. We specialize in sourcing and delivering the finest quality meats, seafood, and gourmet specialties to restaurants, hotels, and culinary establishments across the country.',
       'Our commitment to excellence extends from our rigorous supplier selection process to our state-of-the-art cold chain facilities. Every product that bears the Orca name represents our dedication to quality, freshness, and reliability.',
